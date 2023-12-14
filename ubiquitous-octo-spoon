@@ -1,0 +1,12 @@
+        switch action {
+        case .addElement(let element):
+            newShape.elements.append(element)
+            
+        case .changeBlendMode(let blendMode):
+            newShape.blendMode = blendMode
+            
+        case .changeZPosition(let position):
+            newShape.zPosition = position
+            
+        case .changeBlur(let blur):
+            newShape.blur = blur
